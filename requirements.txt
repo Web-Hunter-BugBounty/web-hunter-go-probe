@@ -1,0 +1,118 @@
+
+# Core dependencies
+colorama==0.4.6
+tqdm==4.65.0
+requests==2.31.0
+beautifulsoup4==4.12.2
+dnspython==2.4.2
+urllib3==2.0.7
+python-whois==0.8.0
+idna==3.6
+certifi==2024.2.2
+chardet==5.2.0
+soupsieve==2.5
+
+# Networking and domain utils
+cryptography>=40.0.1
+pyOpenSSL>=23.0.0
+censys>=2.2.0
+dnslib>=0.9.23
+ipwhois>=1.2.0
+sslyze>=5.1.0
+masscan>=1.0.0
+psutil>=5.9.0
+
+# Parsing and data processing
+pyyaml>=6.0
+jmespath>=1.0.1
+jsonpath-ng>=1.5.0
+lxml>=4.9.2
+bs4>=0.0.1
+html5lib>=1.1
+xmltodict>=0.13.0
+
+# Visualization and analysis
+matplotlib>=3.7.0
+networkx>=3.1
+graphviz>=0.20.0
+
+# Concurrency and performance
+gevent>=22.10.2
+grequests>=0.6.0
+more-itertools>=9.1.0
+thread6>=0.2.0
+multiprocessing>=2.6.2
+
+# Enhanced vulnerability scanning
+python-owasp-zap-v2.4>=0.0.20
+fuzzywuzzy>=0.18.0
+python-Levenshtein>=0.23.0
+shodan>=1.30.0
+vulners>=1.7.0
+selenium>=4.15.0
+webdriver-manager>=4.0.1
+wafw00f>=2.2.0
+nuclei-templates>=10.0.0
+ghauri>=0.0.4
+
+# JWT and token analysis
+pyjwt>=2.6.0
+jwcrypto>=1.4.2
+
+# Additional security tools
+wfuzz>=3.1.0
+pycurl>=7.45.1
+jwt_tool>=2.2.6
+
+# Extract sensitive information
+python-magic>=0.4.27
+
+# NLP and ML for smart detection
+nltk>=3.8.1
+scikit-learn>=1.2.2
+textblob>=0.17.1
+transformers>=4.35.0
+torch>=2.0.0
+sentence-transformers>=2.2.2
+
+# API and fuzzing tools
+httpx>=0.24.1
+aiohttp>=3.8.5
+pyjsparser>=2.7.1
+jsbeautifier>=1.14.9
+jq>=1.4.1
+
+# Subdomain discovery and analysis
+aiodns>=3.0.0
+sublist3r>=1.0.0
+py-altdns>=1.0.2
+dnstwist>=20230918
+
+# Network analysis tools
+scapy>=2.5.0
+pyshark>=0.6.0
+
+# Web crawling and JavaScript analysis
+playwright>=1.32.1
+js2py>=0.74
+esprima>=4.0.1
+subjs>=1.0.0
+linkfinder>=1.0.0
+xnlinkfinder>=1.0.0
+jsluice>=0.8.0
+
+# Cloud attack surface tools
+boto3>=1.26.0
+google-api-python-client>=2.86.0
+azure-identity>=1.13.0
+azure-keyvault>=4.2.0
+msrestazure>=0.6.4
+
+# CORS and CSP analysis
+csp-evaluator>=0.4.0
+
+# Typosquatting and brand protection
+urlcrazy>=0.6
+
+# Live monitoring and recursive tools
+watchdog>=3.0.0
